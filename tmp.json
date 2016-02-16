@@ -1,0 +1,35 @@
+{
+  "mlq_product": {
+    "_parent": {
+      "type": "mlq_goods"
+    },
+    "properties": {
+      "product_name": {
+        "type": "string",
+        "store": "yes",
+        "index": "analyzed",
+        "analyzer": "ik_analyzer"
+      }
+    }
+  }
+}
+
+
+
+SELECT mpa1.*,mpa2.addr FROM mlq_product_attr mpa1 LEFT JOIN (SELECT tranAddr(mpa.attr_value,'-') addr,mpa.id FROM mlq_product_attr mpa WHERE mpa.attr_name = '出库地区') mpa2 ON mpa1.id = mpa2.id
+
+
+{
+  "type": "jdbc",
+  "jdbc": {
+    "url": "jdbc:mysql://localhost:3306/b2b",
+    "user": "root",
+    "password": "111111",
+    "sql": "SELECT mpa1.*,mpa2.addr FROM mlq_product_attr mpa1 LEFT JOIN (SELECT tranAddr(mpa.attr_value,'-') addr,mpa.id as _id FROM mlq_product_attr mpa WHERE mpa.attr_name = '出库地区') mpa2 ON mpa1.id = mpa2.id",
+    "index": "b2b",
+    "type": "mlq_product_attr"
+  }
+}
+
+
+SELECT CASE mpa.attr_name WHEN '出库地区' THEN tranAddr (mpa.attr_value, '-') END AS addr,mpa.id AS _id,mpa.* FROM mlq_product_attr mpa
