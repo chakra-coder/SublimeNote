@@ -33,3 +33,87 @@ SELECT mpa1.*,mpa2.addr FROM mlq_product_attr mpa1 LEFT JOIN (SELECT tranAddr(mp
 
 
 SELECT CASE mpa.attr_name WHEN '出库地区' THEN tranAddr (mpa.attr_value, '-') END AS addr,mpa.id AS _id,mpa.* FROM mlq_product_attr mpa
+
+
+
+[
+  {
+    "bool": {
+      "should": [
+        {
+          "has_child": {
+            "type": "mlq_product",
+            "query": {
+              "range": {
+                "mlq_product.product_price": {
+                  "from": 2000,
+                  "to": 3000
+                }
+              }
+            }
+          }
+        },
+        {
+          "range": {
+            "sale_price": {
+              "from": 2000,
+              "to": 3000
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "bool": {
+      "should": [
+        {
+          "has_child": {
+            "type": "mlq_product",
+            "query": {
+              "term": {
+                "mlq_product.product_name_noa": "70#"
+              }
+            }
+          }
+        },
+        {
+          "has_child": {
+            "type": "mlq_product_dis",
+            "query": {
+              "term": {
+                "mlq_product_dis.product_name_noa": "SBS"
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "bool": {
+      "should": [
+        {
+          "has_child": {
+            "type": "mlq_product",
+            "query": {
+              "match": {
+                "mlq_product.repository_region_noa": "华北地区"
+              }
+            }
+          }
+        },
+        {
+          "has_child": {
+            "type": "mlq_product_dis",
+            "query": {
+              "term": {
+                "mlq_product_dis.repository_region_noa": "华北地区"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]
