@@ -117,3 +117,51 @@ SELECT CASE mpa.attr_name WHEN '出库地区' THEN tranAddr (mpa.attr_value, '-'
     }
   }
 ]
+
+
+
+
+
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1,
+    "max_score": 1.0,
+    "hits": [
+      {
+        "_index": "b2b",
+        "_type": "mlq_goods_dis",
+        "_id": "AVNVz3ZQ1j-GBO6UpGU8",
+        "_score": 1.0,
+        "_source": {
+          "id": "201603084JAqCXN",
+          "is_distribute": "1",
+          "sale_price": "3500.00",
+          "goods_id": "20160229g8Y20x1",
+          "title": "70#测试沥青-分销",
+          "goods_status": "0",
+          "category": "沥青,基质沥青,70#",
+          "brand_name": "泰普克",
+          "brand_name_noa": "泰普克",
+          "new_seller_nick": "公诚管理（测试用）",
+          "new_seller_nick_noa": "公诚管理（测试用）",
+          "cat_code": "20150914q0asfEw,20150914w7L7oG2,201509140732S22,",
+          "brand_id": "201509144R1UXp3",
+          "goods_model": "70#测试沥青",
+          "goods_desc": "",
+          "goods_selling_point": "70#测试沥青",
+          "is_listing_now": "y",
+          "distribution_mode": "1",
+          "shop_recommended": "0",
+          "weight": "0"
+        }
+      }
+    ]
+  }
+}
