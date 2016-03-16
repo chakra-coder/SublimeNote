@@ -11,15 +11,7 @@
 			"file": "2016-03-04.md",
 			"settings":
 			{
-				"buffer_size": 19593,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "tmp.json",
-			"settings":
-			{
-				"buffer_size": 3619,
+				"buffer_size": 19754,
 				"line_ending": "Windows"
 			}
 		},
@@ -27,31 +19,7 @@
 			"file": "2016-02-23.md",
 			"settings":
 			{
-				"buffer_size": 1735,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "2016-03-03.md",
-			"settings":
-			{
-				"buffer_size": 2138,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "2016-03-08.md",
-			"settings":
-			{
-				"buffer_size": 375,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "2016-03-06.md",
-			"settings":
-			{
-				"buffer_size": 2268,
+				"buffer_size": 1739,
 				"line_ending": "Windows"
 			}
 		}
@@ -74,6 +42,22 @@
 			[
 				"com",
 				"Git: Commit"
+			],
+			[
+				"git:a",
+				"Git: Add All"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
 			],
 			[
 				"a",
@@ -104,16 +88,8 @@
 				"Git: Add All"
 			],
 			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
 				"m",
 				"MarkdownEditing: Markdown Lint"
-			],
-			[
-				"rem",
-				"Package Control: Remove Package"
 			],
 			[
 				"ad",
@@ -126,14 +102,6 @@
 			[
 				"pri",
 				"Markdown Preview: Preview in Browser"
-			],
-			[
-				"git:a",
-				"Git: Add All"
-			],
-			[
-				"in",
-				"Package Control: Install Package"
 			],
 			[
 				"git:p",
@@ -185,13 +153,21 @@
 	],
 	"file_history":
 	[
-		"/C/Users/dishui/Desktop/SublimeNote/2016-02-26.md",
-		"/C/Users/dishui/Desktop/SublimeNote/2016-03-07.md",
 		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/User/MultiMarkdown.sublime-settings",
 		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/User/Preferences.sublime-settings",
-		"/C/Users/dishui/Desktop/SublimeNote/tmp.json",
 		"/C/Users/dishui/Desktop/SublimeNote/2016-03-03.md",
+		"/C/Users/dishui/Desktop/SublimeNote/2016-03-05.md",
+		"/C/Users/dishui/Desktop/SublimeNote/2016-02-23.md",
+		"/C/Users/dishui/Desktop/SublimeNote/tmp.md",
+		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/User/Markdown Extended.sublime-settings",
+		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/User/MarkdownLight.sublime-settings",
+		"/C/Users/dishui/Desktop/SublimeNote/2016-03-04.md",
+		"/C/Users/dishui/Desktop/SublimeNote/2016-03-08.md",
 		"/C/Users/dishui/Desktop/SublimeNote/2016-03-06.md",
+		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/User/JSON.sublime-settings",
+		"/C/Users/dishui/Desktop/SublimeNote/tmp.json",
+		"/C/Users/dishui/Desktop/SublimeNote/2016-02-26.md",
+		"/C/Users/dishui/Desktop/SublimeNote/2016-03-07.md",
 		"/C/Users/dishui/Desktop/SublimeNote/2016-02-28.md",
 		"/C/Users/dishui/Desktop/SublimeNote/2016-02-29.md",
 		"/C/Users/dishui/Desktop/SublimeNote/2016-02-27.md",
@@ -200,8 +176,6 @@
 		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/dishui/Desktop/SublimeNote/2016-03-02.md",
 		"/C/Users/dishui/Desktop/SublimeNote/snippets.md",
-		"/C/Users/dishui/Desktop/SublimeNote/2016-03-05.md",
-		"/C/Users/dishui/Desktop/SublimeNote/2016-03-04.md",
 		"/C/Users/dishui/Desktop/SublimeNote/.config",
 		"/C/Users/dishui/Desktop/SublimeNote/2016-03-01.md",
 		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/Markdown Slideshow/Default.sublime-keymap",
@@ -215,7 +189,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
@@ -285,7 +259,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -294,15 +268,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19593,
+						"buffer_size": 19754,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11354,
-								11274
+								620,
+								620
 							]
 						],
 						"settings":
@@ -312,159 +286,38 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 390.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "tmp.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3619,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3619,
-								3619
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3984.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "2016-02-23.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1735,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1669,
-								1669
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MarkdownEditing/MultiMarkdown.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1092.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "2016-03-03.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2138,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								84,
-								84
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MarkdownEditing/MultiMarkdown.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 234.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "2016-03-08.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 375,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								237,
-								237
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/MarkdownEditing/MultiMarkdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 624.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "2016-03-06.md",
+					"buffer": 1,
+					"file": "2016-02-23.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2268,
+						"buffer_size": 1739,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								585,
-								585
+								149,
+								149
 							]
 						],
 						"settings":
 						{
-							"parser": null,
-							"syntax": "Packages/MarkdownEditing/MultiMarkdown.tmLanguage",
-							"target": "disk"
+							"syntax": "Packages/MarkdownEditing/MultiMarkdown.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 743.0,
+						"translation.y": 78.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -521,7 +374,7 @@
 	"project": "note.sublime-project",
 	"replace":
 	{
-		"height": 74.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -544,25 +397,37 @@
 	},
 	"select_symbol":
 	{
-		"height": 382.0,
-		"last_filter": "e",
+		"height": 106.0,
+		"last_filter": "el",
 		"selected_items":
 		[
-			[
-				"e",
-				"### `Elasticsearch`"
-			],
 			[
 				"el",
 				"### `Elasticsearch`"
 			],
 			[
-				"Sql",
-				"### `Sql`"
+				"win",
+				"### win10 端口转发"
+			],
+			[
+				"e",
+				"### `Elasticsearch`\n"
+			],
+			[
+				"ht",
+				"### `Html`\n"
+			],
+			[
+				"sq",
+				"### `Sql`\n"
 			],
 			[
 				"",
-				"### `Elasticsearch`"
+				"### win10 端口转发\n"
+			],
+			[
+				"Sql",
+				"### `Sql`"
 			]
 		],
 		"width": 392.0
@@ -575,7 +440,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 179.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
