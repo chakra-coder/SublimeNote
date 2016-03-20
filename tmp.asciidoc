@@ -15,3 +15,8 @@
 |kbd:[Ctrl + +]
 |Increase zoom
 |===
+
+
+Press the btn:[OK] button when you are finished.
+
+Select a file in the file navigator and click btn:[Open].
