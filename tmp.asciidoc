@@ -63,7 +63,7 @@ end
 
 [source,java]
 ----
-include::{sourcedir}/java/tmp.java[]
+include::src/java/tmp.java[]
 ----
 
 
