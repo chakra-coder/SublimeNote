@@ -57,7 +57,7 @@ end
 
 
 
-:sourcedir: src/java
+:sourcedir: /src/java
 
 [source,java]
 ----
