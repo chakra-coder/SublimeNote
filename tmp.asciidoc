@@ -1,4 +1,9 @@
 :experimental:
+
+= AsciiDoc Writer's Guide
+Doc Writer <doc.writer@asciidoctor.org>
+v1.0, 2014-08-01
+:toc: right
 ////
 Included in:
 
@@ -35,3 +40,26 @@ Press the btn:[OK] button when you are finished.
 
 Select a file in the file navigator and click btn:[Open].
 // end::button[]
+
+
+Code block with callouts
+[source,ruby]
+----
+require 'sinatra' // <1>
+
+get '/hi' do // <2>
+  "Hello World!" // <3>
+end
+----
+<1> Library import
+<2> URL mapping
+<3> Content for response
+
+
+
+:sourcedir: src/java
+
+[source,java]
+----
+include::{sourcedir}/tmp.java[]
+----
