@@ -24,6 +24,8 @@ Crawling through the twisted understory...
 ----
 <section>
   <title>Section Title</title> <!--1-->
+  <name>sef</name> <!--2-->
 </section>
 ----
 <1> The section title is required.
+<2> The section name is sef.
