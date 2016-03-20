@@ -1,36 +1,3 @@
-= The Dangerous and Thrilling Documentation Chronicles
-Kismet Chameleon
-:toc: left
-
-This journey begins on a bleary...
-
-== Cavern Glow
-
-The river rages through the cavern, rattling its content...
-
-== The Ravages of Writing
-
-Her finger socks had been vaporized by crystalline nuggets of...
-
-=== A Recipe for Potion
-
-Two fresh Burdockian leaves, harvested by the light of the teal moons...
-
-==== Searching for Burdockian
-
-Crawling through the twisted understory...
-
-[source,xml]
-----
-<section>
-  <title>Section Title</title> <!--1-->
-  <name>sef</name> <!--2-->
-</section>
-----
-<1> The section title is required.
-<2> The section name is sef.
-
-
 ////
 Included in:
 
