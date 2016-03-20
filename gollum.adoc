@@ -1,36 +1,21 @@
-### asciidoc
+= The Dangerous and Thrilling Documentation Chronicles
+Kismet Chameleon
+:toc: left
 
-. level 1
-.. level 2
-... level 3
-.... level 4
-..... level 5
-. level 1
+This journey begins on a bleary...
 
-### 3
-.Gemfile.lock
-----
-GEM
-  remote: https://rubygems.org/
-  specs:
-    asciidoctor (0.1.4)
+== Cavern Glow
 
-PLATFORMS
-  ruby
+The river rages through the cavern, rattling its content...
 
-DEPENDENCIES
-  asciidoctor (~> 0.1.4)
-----
+== The Ravages of Writing
 
-### s
-[source,ruby]
-----
-require 'sinatra' // <1>
+Her finger socks had been vaporized by crystalline nuggets of...
 
-get '/hi' do // <2>
-  "Hello World!" // <3>
-end
-----
-<1> Library import
-<2> URL mapping
-<3> Content for response
+=== A Recipe for Potion
+
+Two fresh Burdockian leaves, harvested by the light of the teal moons...
+
+==== Searching for Burdockian
+
+Crawling through the twisted understory...
