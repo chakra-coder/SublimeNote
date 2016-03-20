@@ -59,15 +59,15 @@ end
 
 
 
-:sourcedir: .
+:sourcedir: src
 
 [source,java]
 ----
-include::{sourcedir}/src/java/tmp.java[]
+include::{sourcedir}/java/tmp.java[]
 ----
 
 
-include::{sourcedir}/tmp.md[]
+include::{sourcedir}/../tmp.md[]
 
 :asciidoctor-source: https://raw.githubusercontent.com/asciidoctor/asciidoctor/master
 
