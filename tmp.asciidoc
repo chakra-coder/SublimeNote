@@ -59,11 +59,11 @@ end
 
 
 
-:sourcedir: src
+:sourcedir: .
 
 [source,java]
 ----
-include::{sourcedir}/java/tmp.java[]
+include::{sourcedir}/src/java/tmp.java[]
 ----
 
 
