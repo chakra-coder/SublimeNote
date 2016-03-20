@@ -59,7 +59,7 @@ end
 
 
 
-:sourcedir: ./src
+:sourcedir: .
 
 [source,java]
 ----
