@@ -31,8 +31,14 @@ Crawling through the twisted understory...
 <2> The section name is sef.
 
 
-[options="header", caption=""]
-.Common browser keyboard shortcuts
+////
+Included in:
+
+- user-manual: User Interface Macros
+- quick-ref
+////
+
+// tag::key[]
 |===
 |Shortcut |Purpose
 
@@ -48,3 +54,16 @@ Crawling through the twisted understory...
 |kbd:[Ctrl + +]
 |Increase zoom
 |===
+// end::key[]
+
+// tag::menu[]
+To save the file, select menu:File[Save].
+
+Select menu:View[Zoom > Reset] to reset the zoom level to the default setting.
+// end::menu[]
+
+// tag::button[]
+Press the btn:[OK] button when you are finished.
+
+Select a file in the file navigator and click btn:[Open].
+// end::button[]
