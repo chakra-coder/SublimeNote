@@ -25,3 +25,8 @@ Select a file in the file navigator and click btn:[Open].
 ====
 Some note.
 ====
+
+[qanda]
+What is Asciidoctor?::
+  An implementation of the AsciiDoc processor in Ruby.
+What is the answer to the Ultimate Question?:: 42
