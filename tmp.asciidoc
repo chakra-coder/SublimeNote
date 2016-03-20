@@ -31,6 +31,8 @@ Crawling through the twisted understory...
 <2> The section name is sef.
 
 
+[options="header", caption=""]
+.Common browser keyboard shortcuts
 |===
 |Shortcut |Purpose
 
