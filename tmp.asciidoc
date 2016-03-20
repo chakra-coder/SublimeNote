@@ -1,4 +1,7 @@
 :experimental:
+:toc:
+:toc-placement!:
+:includedir: src
 
 = AsciiDoc Writer's Guide
 Doc Writer <doc.writer@asciidoctor.org>
@@ -57,7 +60,7 @@ end
 
 
 
-:sourcedir: /src/java
+:sourcedir: /java
 
 [source,java]
 ----
