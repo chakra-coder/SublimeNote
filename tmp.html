@@ -5,7 +5,8 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.4">
-<title>Untitled</title>
+<meta name="author" content="Doc Writer">
+<title>AsciiDoc Writer&#8217;s Guide</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -419,6 +420,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
+<h1>AsciiDoc Writer&#8217;s Guide</h1>
+<div class="details">
+<span id="author" class="author">Doc Writer</span><br>
+<span id="email" class="email"><a href="mailto:doc.writer@asciidoctor.org">doc.writer@asciidoctor.org</a></span><br>
+<span id="revnumber">version 1.0,</span>
+<span id="revdate">2014-08-01</span>
+</div>
 </div>
 <div id="content">
 <table class="tableblock frame-all grid-all spread">
@@ -434,39 +442,86 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">kbd:[F11]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><kbd>F11</kbd></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Toggle fullscreen</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">kbd:[Ctrl+T]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="keyseq"><kbd>Ctrl</kbd>+<kbd>T</kbd></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Open a new tab</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">kbd:[Ctrl+Shift+N]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="keyseq"><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">New incognito window</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">kbd:[Ctrl + +]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="keyseq"><kbd>Ctrl</kbd>+<kbd>+</kbd></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Increase zoom</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>To save the file, select menu:File[Save].</p>
+<p>To save the file, select <span class="menuseq"><span class="menu">File</span>&#160;&#9656; <span class="menuitem">Save</span></span>.</p>
 </div>
 <div class="paragraph">
-<p>Select menu:View[Zoom &gt; Reset] to reset the zoom level to the default setting.</p>
+<p>Select <span class="menuseq"><span class="menu">View</span>&#160;&#9656; <span class="submenu">Zoom</span>&#160;&#9656; <span class="menuitem">Reset</span></span> to reset the zoom level to the default setting.</p>
 </div>
 <div class="paragraph">
-<p>Press the btn:[OK] button when you are finished.</p>
+<p>Press the <b class="button">OK</b> button when you are finished.</p>
 </div>
 <div class="paragraph">
-<p>Select a file in the file navigator and click btn:[Open].</p>
+<p>Select a file in the file navigator and click <b class="button">Open</b>.</p>
+</div>
+<div class="paragraph">
+<p>Code block with callouts</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-ruby" data-lang="ruby">require 'sinatra' <b class="conum">(1)</b>
+
+get '/hi' do <b class="conum">(2)</b>
+  "Hello World!" <b class="conum">(3)</b>
+end</code></pre>
+</div>
+</div>
+<div class="colist arabic">
+<ol>
+<li>
+<p>Library import</p>
+</li>
+<li>
+<p>URL mapping</p>
+</li>
+<li>
+<p>Content for response</p>
+</li>
+</ol>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-java" data-lang="java">String img_original = mpp.getImg_original();
+String path = this.getClass().getClassLoader().getResource("/").getPath();
+String[] paths = path.split("/WEB-INF");
+//web-path
+String web_path = paths[0];
+File img = new File(web_path+img_original);
+if(!img.exists()){
+ mgp.setImg_large("/data/goods_image1/10/1/a0e27f4ce4e84e1286d8832c0f7cdff0.png");
+}else{
+ mgp.setImg_large(img_original);
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Unresolved directive in tmp.asciidoc - include::./../tmp.md[]</p>
+</div>
+<div class="paragraph">
+<p><a href="https://raw.githubusercontent.com/asciidoctor/asciidoctor/master/README.adoc" class="bare">https://raw.githubusercontent.com/asciidoctor/asciidoctor/master/README.adoc</a></p>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2016-03-20 10:53:17 UTC
+Version 1.0<br>
+Last updated 2016-03-20 15:29:55 UTC
 </div>
 </div>
 </body>
