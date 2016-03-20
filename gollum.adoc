@@ -6,3 +6,31 @@
 .... level 4
 ..... level 5
 . level 1
+
+
+.Gemfile.lock
+----
+GEM
+  remote: https://rubygems.org/
+  specs:
+    asciidoctor (0.1.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  asciidoctor (~> 0.1.4)
+----
+
+
+[source,ruby]
+----
+require 'sinatra' // <1>
+
+get '/hi' do // <2>
+  "Hello World!" // <3>
+end
+----
+<1> Library import
+<2> URL mapping
+<3> Content for response
