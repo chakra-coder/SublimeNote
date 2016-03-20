@@ -29,3 +29,20 @@ Crawling through the twisted understory...
 ----
 <1> The section title is required.
 <2> The section name is sef.
+
+
+|===
+|Shortcut |Purpose
+
+|kbd:[F11]
+|Toggle fullscreen
+
+|kbd:[Ctrl+T]
+|Open a new tab
+
+|kbd:[Ctrl+Shift+N]
+|New incognito window
+
+|kbd:[Ctrl + +]
+|Increase zoom
+|===
