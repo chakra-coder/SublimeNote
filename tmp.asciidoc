@@ -63,3 +63,7 @@ end
 ----
 include::{sourcedir}/tmp.java[]
 ----
+
+:asciidoctor-source: https://raw.githubusercontent.com/asciidoctor/asciidoctor/master
+
+include::{asciidoctor-source}/README.adoc[]
