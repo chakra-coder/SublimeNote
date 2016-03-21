@@ -63,6 +63,6 @@ end
 
 [source,java]
 ----
-[[include:src/java/1]]
+[[include:work]]
 ----
 [[include:src/java/1]]
