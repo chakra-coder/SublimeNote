@@ -66,3 +66,7 @@ end
 [[include:work]]
 ----
 [[include:src/java/1]]
+
+
+
+```java:/src/java/1.java```
