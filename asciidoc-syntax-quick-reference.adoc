@@ -123,7 +123,7 @@ include::{includedir}/ex-admon.adoc[tags=b-para]
 [.result]
 ====
 include::{includedir}/ex-admon.adoc[tags=b-para]
-====
+====发
 
 NOTE: You can also create <<admon-bl,admonition blocks>>.
 

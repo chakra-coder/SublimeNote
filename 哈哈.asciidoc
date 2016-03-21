@@ -1,3 +1,0 @@
-测试include
-
-include::src/java/tmp.java[]
