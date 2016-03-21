@@ -1,6 +1,5 @@
+[[_TOC_]]
 :experimental:
-:toc: right
-:toclevels: 2
 
 = AsciiDoc Writer's Guide
 Doc Writer <doc.writer@asciidoctor.org>
@@ -62,9 +61,10 @@ end
 
 
 
-
-```java:/src/java/2.java```
-
-
-
 [[include:work]]
+
+{{{{{{ blue-modern
+    alice->bob: Test
+    bob->alice: Test response
+}}}}}}
+
