@@ -1,5 +1,5 @@
 测试include
 
-[[include:src/java/tmp.java]]
+[[include:src/java/tmp]]
 
 include::src/java/tmp[]
