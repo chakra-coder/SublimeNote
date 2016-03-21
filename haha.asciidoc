@@ -2,4 +2,3 @@
 
 [[include:/src/java/tmp.java]]
 
-include::/src/java/tmp.java[]
