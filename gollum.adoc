@@ -14,7 +14,7 @@ Vagrant.configure(2) do |config|
   end
 end
 ```
-
+{{{{{{ blue-modern
 title Authentication Sequence
 
 哈希->游戏: Authentication Request
@@ -26,3 +26,4 @@ A->]: text
 
 A->+B: text
 B-->-A: text
+}}}}}}
