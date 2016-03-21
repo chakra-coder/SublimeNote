@@ -67,7 +67,7 @@ include::src/java/tmp.java[]
 ----
 
 
-[[include::tmp.md]]
+[[include::tmp.md[]]]
 
 :asciidoctor-source: https://raw.githubusercontent.com/asciidoctor/asciidoctor/master
 
