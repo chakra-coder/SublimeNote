@@ -1,0 +1,10 @@
+导航::
+  Linux:::
+    . [[脚本|snippets]]
+      * [[vpn|vpn]]
+    . [[井|well]]
+      * Desktop
+      * Server
+  BSD:::
+    . FreeBSD
+    . NetBSD
