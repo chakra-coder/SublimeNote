@@ -1,6 +1,6 @@
 :experimental:
-:toc:
-:toc-placement!:
+:toc: right
+:toclevels: 2
 
 = AsciiDoc Writer's Guide
 Doc Writer <doc.writer@asciidoctor.org>
