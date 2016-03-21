@@ -67,4 +67,4 @@ include::src/java/tmp.java[]
 ----
 
 
-[[include:tmp.md]]
+[[include:snippets.md]]
