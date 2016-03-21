@@ -59,15 +59,8 @@ end
 
 
 
-:sourcedir: .
-
-[source,java]
-----
-[[include:work]]
-----
-[[include:src/java/1]]
 
 
 
-```java:/src/java/1.java```
-```text:/src/java/2.java```
+```java:/src/java/2.java```
+
