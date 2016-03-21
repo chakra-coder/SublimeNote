@@ -1,5 +1,5 @@
 :experimental:
-[[_TOC_]]
+
 
 = AsciiDoc Writer's Guide
 Doc Writer <doc.writer@asciidoctor.org>
