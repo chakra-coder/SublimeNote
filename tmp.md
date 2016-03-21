@@ -21,3 +21,6 @@ Gollum::Markup.formats[:adoc] = {
     :name => "AsciiDoc",
     :regexp => /adoc|asc(iidoc)?/
 }
+
+
+[[include:src/java/tmp.java]]
