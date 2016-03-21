@@ -1,3 +1,5 @@
++ Vagrantfile
+```ruby
 Vagrant.configure(2) do |config|
   config.vm.synced_folder ".", "/vagrant", disabled: true
   config.vm.synced_folder "C:/Users/dishui/Desktop/sublime\ file", "/home/vagrant/wiki"
@@ -11,3 +13,33 @@ Vagrant.configure(2) do |config|
     vb.memory = "1024"
   end
 end
+```
+
+@startuml
+
+abstract class AbstractList
+abstract AbstractCollection
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+  Object[] elementData
+  size()
+}
+
+enum TimeUnit {
+  DAYS
+  HOURS
+  MINUTES
+}
+
+annotation SuppressWarnings
+
+@enduml
