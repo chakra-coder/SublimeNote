@@ -1,3 +1,6 @@
 #wiki-wrapper {
     max-width: 1150px;
 }
+.markdown-body h6{
+	margin: 0;
+}
