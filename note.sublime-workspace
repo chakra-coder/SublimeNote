@@ -8,10 +8,26 @@
 	"buffers":
 	[
 		{
-			"file": "well.md",
+			"file": "2016-02-28.md",
 			"settings":
 			{
-				"buffer_size": 1141,
+				"buffer_size": 4600,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "work.adoc",
+			"settings":
+			{
+				"buffer_size": 182,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config.rb",
+			"settings":
+			{
+				"buffer_size": 723,
 				"line_ending": "Windows"
 			}
 		},
@@ -19,7 +35,15 @@
 			"file": "2016-03-04.md",
 			"settings":
 			{
-				"buffer_size": 31153,
+				"buffer_size": 31083,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/java/2.java",
+			"settings":
+			{
+				"buffer_size": 14794,
 				"line_ending": "Windows"
 			}
 		}
@@ -31,7 +55,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 291.0,
+		"height": 392.0,
 		"last_filter": "pus",
 		"selected_items":
 		[
@@ -44,16 +68,28 @@
 				"Git: Commit"
 			],
 			[
-				"ad",
+				"a",
 				"Git: Add All"
 			],
 			[
-				"pre",
-				"Markdown Preview: Preview in Browser"
+				"q",
+				"Git: Quick Commit"
 			],
 			[
 				"push",
 				"Git: Push"
+			],
+			[
+				"ad",
+				"Git: Add All"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
 			],
 			[
 				"git:s",
@@ -84,10 +120,6 @@
 				"Git: Commit"
 			],
 			[
-				"pull",
-				"Git: Pull"
-			],
-			[
 				"git:sta",
 				"Git: Stash Apply"
 			],
@@ -110,10 +142,6 @@
 			[
 				"ins",
 				"Package Control: Install Package"
-			],
-			[
-				"a",
-				"Git: Add All"
 			],
 			[
 				"pul",
@@ -181,15 +209,26 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/dishui/Desktop/SublimeNote"
+		"/C/Users/dishui/Desktop/SublimeNote",
+		"/C/Users/dishui/Desktop/SublimeNote/src",
+		"/C/Users/dishui/Desktop/SublimeNote/src/java"
 	],
 	"file_history":
 	[
+		"/C/Users/dishui/Desktop/SublimeNote/well.md",
+		"/C/Users/dishui/Desktop/SublimeNote/gollum.adoc",
+		"/C/Users/dishui/Desktop/SublimeNote/2016-03-15.md",
+		"/C/Users/dishui/Desktop/SublimeNote/tmp.asciidoc",
+		"/C/Users/dishui/Desktop/SublimeNote/haha.asciidoc",
+		"/C/Users/dishui/Desktop/SublimeNote/config.rb",
+		"/C/Users/dishui/Desktop/SublimeNote/tmp.md",
+		"/C/Users/dishui/Desktop/SublimeNote/2016-03-20.md",
+		"/C/Users/dishui/Desktop/SublimeNote/asciidoc-syntax-quick-reference.adoc",
+		"/C/Users/dishui/Desktop/SublimeNote/2016-03-04.md",
+		"/C/Users/dishui/Desktop/SublimeNote/work.adoc",
 		"/C/Users/dishui/Desktop/tmp/分销平台-分销管理-编辑产品.html",
 		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/MarkdownEditing/README.md",
 		"/C/Users/dishui/Desktop/SublimeNote/socketplane-Vagrantfile",
-		"/C/Users/dishui/Desktop/SublimeNote/2016-03-04.md",
-		"/C/Users/dishui/Desktop/SublimeNote/2016-03-15.md",
 		"/C/Users/dishui/Desktop/SublimeNote/2016-03-03.md",
 		"/C/Users/dishui/Desktop/SublimeNote/2016-03-05.md",
 		"/C/Users/dishui/Desktop/SublimeNote/2016-02-28.md",
@@ -199,7 +238,6 @@
 		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/User/q-snippet.sublime-snippet",
 		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/User/MultiMarkdown.sublime-settings",
 		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/User/Preferences.sublime-settings",
-		"/C/Users/dishui/Desktop/SublimeNote/tmp.md",
 		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/User/Markdown Extended.sublime-settings",
 		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/User/MarkdownLight.sublime-settings",
 		"/C/Users/dishui/Desktop/SublimeNote/2016-03-08.md",
@@ -241,6 +279,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"find",
+			"include",
+			"vagrant",
 			"端口",
 			"权限",
 			"yum",
@@ -299,52 +340,110 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "well.md",
+					"file": "2016-02-28.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1141,
+						"buffer_size": 4600,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1139,
-								1139
+								4595,
+								4595
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/MarkdownEditing/MultiMarkdown.tmLanguage"
+							"syntax": "Packages/MarkdownEditing/MultiMarkdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 936.0,
+						"translation.y": 3799.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "work.adoc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 723,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								346,
+								346
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 3,
 					"file": "2016-03-04.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 31153,
+						"buffer_size": 31083,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								22766,
-								22766
+								11380,
+								11380
 							]
 						],
 						"settings":
@@ -354,10 +453,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 394.0,
+						"translation.y": 149.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/java/2.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14794,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14794,
+								14794
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 11347.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -438,12 +567,32 @@
 	"select_symbol":
 	{
 		"height": 392.0,
-		"last_filter": "e",
+		"last_filter": "ela",
 		"selected_items":
 		[
 			[
+				"ela",
+				"### `Elasticsearch`"
+			],
+			[
+				"U",
+				"### `Ubuntu`"
+			],
+			[
 				"e",
 				"### `Elasticsearch`"
+			],
+			[
+				"go",
+				"### gollum"
+			],
+			[
+				"dock",
+				"### docker"
+			],
+			[
+				"ubu",
+				"### `Ubuntu`"
 			],
 			[
 				"va",
@@ -478,10 +627,6 @@
 				"### `Elasticsearch`"
 			],
 			[
-				"ela",
-				"### `Elasticsearch`"
-			],
-			[
 				"sq",
 				"### `Sql`"
 			],
@@ -498,7 +643,7 @@
 				"### `Sql`"
 			]
 		],
-		"width": 392.0
+		"width": 488.0
 	},
 	"selected_group": 0,
 	"settings":

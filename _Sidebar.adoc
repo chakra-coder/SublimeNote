@@ -1,6 +1,4 @@
-
-. [[脚本|snippets]]
-    - [[vpn|vpn]]
-. [[井|well]]
++ [[Spring配置文件|spring-conf]]
++ [[井|well]]
     - Desktop
     - Server
