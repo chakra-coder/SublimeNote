@@ -1,4 +1,2 @@
 . applicationContext.xml
-```xml
-src/conf/spring/applicationContext.xml
-```
+```xml:/src/conf/spring/applicationContext.xml```
