@@ -1,12 +1,21 @@
 
-
-
-
-[cols="3*", options="header"]
 |===
-|字母
-|起值
-|止值
+|Name of Column 1 |Name of Column 2 |Name of Column 3
+
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+|Cell in column 3, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|Cell in column 3, row 2
+|===
+
+
+
+
+|===
+|字母|起值|止值
 
 |A, 45217, 45252
 |B, 45253, 45760
