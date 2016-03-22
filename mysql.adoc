@@ -1,3 +1,17 @@
+=== MySQL拼音首字母查询
+英文26个字母中除了i,u,v三个字母不能成为汉语拼音的首字母外，其它的字母都可以。如果我们需要查询结果集中以A或者其它字母开头的汉语，实现方法如下
+```sql
+SELECT
+  *
+FROM
+  mlq_shop_info
+WHERE CONV(
+    HEX(LEFT(CONVERT(shop_name USING gbk), 1)),
+    16,
+    10
+  ) BETWEEN 45253
+  AND 45760
+```
 
 |===
 |字母|起值|止值
