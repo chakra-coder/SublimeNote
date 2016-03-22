@@ -14,7 +14,7 @@ WHERE CONV(
   AND 45760
 ```
 
-|===
+* |===
 |字母|起值|止值
 
 |A
@@ -88,6 +88,32 @@ WHERE CONV(
 |55289
 |===
 
+* 批量更新
+```sql
+UPDATE
+  mlq_shop_info
+SET
+  tag = 'a'
+WHERE id IN
+  (SELECT
+    *
+  FROM
+    (SELECT
+      msi2.id
+    FROM
+      mlq_shop_info msi2
+    WHERE CONV(
+        HEX(
+          LEFT(
+            CONVERT(msi2.shop_name USING gbk),
+            1
+          )
+        ),
+        16,
+        10
+      ) BETWEEN 45253
+      AND 45760) AS a)
+```
 
 
 
