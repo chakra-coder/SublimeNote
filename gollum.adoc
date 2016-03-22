@@ -65,3 +65,9 @@ Cloud Providers::
   IaaS:::
     . Amazon EC2
     . Rackspace
+
+
+- [*] checked
+- [x] also checked
+- [ ] not checked
+-     normal list item
