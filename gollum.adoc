@@ -1,4 +1,15 @@
-+ Vagrantfile
+== gollum
+* **启动**
+```bash
+sudo docker run -d -p 80:4567 --name gollum -v ~/wiki:/root/wikidata suttang/gollum
+```
+* **支持配置文件**
+```bash
+#修改Asciidoc文件后缀
+sudo docker run -d -p 80:4567 --name gollum1 -v ~/wiki:/root/wikidata dishui/gollum --config /root/wikidata/config.rb --css /root/wikidata/custom.css
+```
+
+== Vagrantfile
 ```ruby
 Vagrant.configure(2) do |config|
   config.vm.synced_folder ".", "/vagrant", disabled: true
