@@ -116,8 +116,55 @@ WHERE id IN
 ```
 
 
+== Mysql-table
+* __ti_advance_order__
+```sql
+CREATE TABLE `ti_advance_order` (
+  `id` char(15) NOT NULL COMMENT '主键',
+  `order_no` char(15) NOT NULL COMMENT '订单号',
+  `goods_num` double(10,2) DEFAULT NULL COMMENT '锁货量',
+  `advance_type` int(1) DEFAULT NULL COMMENT '预付类型',
+  `advance_rate` int(3) DEFAULT NULL COMMENT '预付比例',
+  `advance_price` double(10,2) DEFAULT NULL COMMENT '预付金额',
+  `in_date` datetime DEFAULT NULL COMMENT '时间',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+```
 
+* __ti_delivery_order__
+```sql
+CREATE TABLE `ti_delivery_order` (
+  `id` char(15) NOT NULL COMMENT '主键',
+  `order_no` char(15) NOT NULL COMMENT '订单号',
+  `goods_num` double(10,2) DEFAULT NULL COMMENT '锁货量',
+  `goods_name` varchar(100) DEFAULT NULL COMMENT '商品名称',
+  `goods_price` double(10,2) DEFAULT NULL COMMENT '商品单价',
+  `ship_price` double(10,2) DEFAULT NULL COMMENT '运输单价',
+  `tihuo_num` double(10,2) DEFAULT NULL COMMENT '提货数量',
+  `jiesuan_num` double(10,2) DEFAULT NULL COMMENT '结算数量',
+  `shuohuo_company` varchar(50) DEFAULT NULL COMMENT '收货单位',
+  `in_date` datetime DEFAULT NULL COMMENT '时间',
+  `material` varchar(100) DEFAULT NULL COMMENT '材料',
+  `model` varchar(100) DEFAULT NULL COMMENT '规格',
+  `chuku_piz` double(10,2) DEFAULT NULL COMMENT '出库皮重',
+  `chuku_maoz` double(10,2) DEFAULT NULL COMMENT '出库毛重',
+  `chuku_jingz` double(10,2) DEFAULT NULL COMMENT '出库净重',
+  `shouhuo_piz` double(10,2) DEFAULT NULL COMMENT '收货皮重',
+  `shouhuo_maoz` double(10,2) DEFAULT NULL COMMENT '收货毛重',
+  `shouhuo_jingz` double(10,2) DEFAULT NULL COMMENT '收货净重',
+  `shouhuo_person` varchar(20) DEFAULT NULL COMMENT '收货人签字',
+  `jingzhong_big` varchar(50) DEFAULT NULL COMMENT '净重大写',
+  `shishuo_big` varchar(50) DEFAULT NULL COMMENT '实收大写',
+  `fahuo_address` varchar(100) DEFAULT NULL COMMENT '发货地址',
+  `shouhuo_address` varchar(100) DEFAULT NULL COMMENT '收货地址',
+  `car_number` varchar(20) DEFAULT NULL COMMENT '车号',
+  `driver` varchar(10) DEFAULT NULL COMMENT '司机',
+  `file_url` varchar(100) DEFAULT NULL COMMENT '附件地址url',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+```
 
+id, order_no, goods_num_d, goods_name, goods_price_d, ship_price_d, tihuo_num_d, jiesuan_num_d, shuohuo_company, in_date, material, model, chuku_piz_d, chuku_maoz_d, chuku_jingz_d, shouhuo_piz_d, shouhuo_maoz_d, shouhuo_jingz_d, shouhuo_person, jingzhong_big, shishuo_big, fahuo_address, shouhuo_address, car_number, driver, file_url
 == Issues
 
 * http://stackoverflow.com/questions/45494/mysql-error-1093-cant-specify-target-table-for-update-in-from-clause[MySQL Error 1093 - Can't specify target table for update in FROM clause]

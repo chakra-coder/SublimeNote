@@ -54,6 +54,9 @@ curl -XPOST "http://192.168.1.126:9200/b2b" -d'
             "business_license_deadline": {
                "type": "string"
             },
+            "tag": {
+               "type": "string"
+            },
             "gmt_modify": {
                "type": "string"
             }
