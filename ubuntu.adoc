@@ -83,13 +83,25 @@ sudo cp /etc/samba/smb.conf /etc/samba/smb.conf.bak
 sudo vi /etc/samba/smb.conf
 ```
 在smb.conf最后添加
-```
-[share]
-      path = /home/phinecos/share
-      available = yes
-      browsealbe = yes
-      public = yes
-      writable = yes
+```conf
+[global]
+    workgroup = WORKGROUP
+#   security = share
+    load printers = no
+
+[wiki]
+   comment = Wiki
+   path = /home/vagrant/wiki
+   writable = yes
+   browseable = yes
+   guest ok = yes
+
+[images]
+   comment = images
+   path = /home/vagrant/images
+   writable = yes
+   browseable = yes
+   guest ok = yes
 ```
 . 创建samba帐户
 ```bash
