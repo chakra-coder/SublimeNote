@@ -8,18 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "tmp2016-02-20.md",
+			"file": "note.sublime-project",
 			"settings":
 			{
-				"buffer_size": 931,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "mysql.adoc",
-			"settings":
-			{
-				"buffer_size": 1219,
+				"buffer_size": 58,
 				"line_ending": "Windows"
 			}
 		}
@@ -32,28 +24,40 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "pus",
+		"last_filter": "stat",
 		"selected_items":
 		[
 			[
-				"pus",
-				"Git: Push"
+				"stat",
+				"Git: Status"
+			],
+			[
+				"git:stat",
+				"Git: Status"
 			],
 			[
 				"com",
 				"Git: Commit"
 			],
 			[
-				"ad",
+				"a",
 				"Git: Add All"
+			],
+			[
+				"pul",
+				"Git: Pull"
+			],
+			[
+				"ad",
+				"Git: Add Current File"
+			],
+			[
+				"pus",
+				"Git: Push"
 			],
 			[
 				"q",
 				"Git: Quick Commit"
-			],
-			[
-				"a",
-				"Git: Add All"
 			],
 			[
 				"ins",
@@ -92,10 +96,6 @@
 				"Git: Stash List"
 			],
 			[
-				"git:stat",
-				"Git: Status"
-			],
-			[
 				"git:com",
 				"Git: Commit"
 			],
@@ -118,10 +118,6 @@
 			[
 				"in",
 				"Package Control: Install Package"
-			],
-			[
-				"pul",
-				"Git: Pull"
 			],
 			[
 				"json",
@@ -164,7 +160,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 408.0
 	},
 	"console":
 	{
@@ -185,14 +181,16 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/dishui/Desktop/SublimeNote",
-		"/C/Users/dishui/Desktop/SublimeNote/src/conf",
-		"/C/Users/dishui/Desktop/SublimeNote/src/conf/spring",
-		"/C/Users/dishui/Desktop/SublimeNote/src/conf/spring/conf",
-		"/C/Users/dishui/Desktop/SublimeNote/src/java"
+		"/Z/SublimeNote"
 	],
 	"file_history":
 	[
+		"//192.168.137.11/wiki/SublimeNote/tmp.md",
+		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/User/Git.sublime-settings",
+		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/Git/Git.sublime-settings",
+		"//192.168.137.11/wiki/SublimeNote/tmp2016-02-20.md",
+		"//192.168.137.11/wiki/SublimeNote/mysql.adoc",
+		"//192.168.137.11/wiki/SublimeNote/note.sublime-project",
 		"/C/Users/dishui/Desktop/SublimeNote/2016-02-28.md",
 		"/C/Users/dishui/Desktop/SublimeNote/work.adoc",
 		"/C/Users/dishui/Desktop/SublimeNote/2016-03-04.md",
@@ -241,8 +239,6 @@
 		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/Markdown Slideshow/Default.sublime-keymap",
 		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/MarkdownEditing/MultiMarkdown.sublime-settings",
 		"/C/Users/dishui/Desktop/SublimeNote/tmp2016-02-16.md",
-		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/Git/Git.sublime-settings",
-		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/User/Git.sublime-settings",
 		"/C/Users/dishui/Desktop/SublimeNote/tmp2016-02-19.md",
 		"/C/Users/dishui/Desktop/SublimeNote/tmp2016-02-17.md"
 	],
@@ -326,58 +322,29 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "tmp2016-02-20.md",
+					"file": "note.sublime-project",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 931,
+						"buffer_size": 58,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								361,
-								361
+								36,
+								36
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/MarkdownEditing/MultiMarkdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 78.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "mysql.adoc",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1219,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								271,
-								271
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Asciidoctor/Syntaxes/Asciidoctor.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
