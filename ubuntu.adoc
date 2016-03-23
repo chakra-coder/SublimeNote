@@ -1,0 +1,115 @@
+= Ubuntu
+== 基础配置
+* 查看`hosts`
+```bash
+cat /etc/hostname
+```
+* 主机与`ip`的映射
+```bash
+cat /etc/hosts
+```
+* **ubuntu-14**网易源
+```
+deb http://mirrors.163.com/ubuntu/ trusty main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ trusty-security main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ trusty-proposed main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ trusty-backports main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ trusty main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ trusty-security main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ trusty-proposed main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ trusty-backports main restricted universe multiverse
+```
+* **阿里源**
+```
+deb http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
+```
+* **安装Virtualbox**
+```bash
+#添加软件源
+sudo sh -c 'echo "deb http://download.virtualbox.org/virtualbox/debian $(lsb_release -cs) contrib" >> /etc/apt/sources.list.d/virtualbox.list'
+#对于Linux Mint来说，请以该系统基于Ubuntu发行版的名称替换$(lsb_release -cs)的代码部分，例如trusty, precise, raring, 等。
+#然后下载和导入软件源密钥：
+wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+#最后，你就可以通过你的软件管理器来安装 virtualbox-4.3 或者通过运行以下命令来安装：
+sudo apt-get update
+sudo apt-get install virtualbox-4.3
+```
+* **VirtualBox Guest Additions 安装**
+```bash
+#挂载
+sudo mount -o loop -t iso9660 VBoxGuestAdditions.iso /mnt
+#VirtualBox Guest Additions kernel modules 需要的依赖
+sudo apt-get install dkms build-essential linux-headers-$(uname -r)
+#安装VirtualBox Guest Additions
+sudo ./VBoxLinuxAdditions.run
+```
+* **Samba服务器配置**
+```bash
+sudo apt-get install samba
+sudo apt-get install cifs-utils
+```
+
+== 软件安装
+=== 配置samba实现文件夹共享
+. samba的安装:
+```bash
+sudo apt-get insall samba
+sudo apt-get install cifs-utils
+```
+. 创建共享目录:
+```bash
+mkdir /home/vagrant/wiki
+sudo chmod 777 /home/vagrant/wiki
+```
+. 创建Samba配置文件:
+
+	. 保存现有的配置文件
+```bash
+sudo cp /etc/samba/smb.conf /etc/samba/smb.conf.bak
+```
+	. 修改现配置文件
+```bash
+sudo vi /etc/samba/smb.conf
+```
+在smb.conf最后添加
+```
+[share]
+      path = /home/phinecos/share
+      available = yes
+      browsealbe = yes
+      public = yes
+      writable = yes
+```
+. 创建samba帐户
+```bash
+  sudo touch /etc/samba/smbpasswd
+  sudo smbpasswd -a phinecos
+```
+然后会要求你输入samba帐户的密码
+
+ ［如果没有第四步，当你登录时会提示 session setup failed: NT_STATUS_LOGON_FAILURE］
+
+. 重启samba服务器
+```bash
+sudo /etc/init.d/samba restart
+#或
+sudo service smbd restart
+```
+. 测试
+```bash
+smbclient -L //localhost/share
+```
+. 使用
+
+可以到windows下输入ip使用了，在文件夹处输入 "\\" + "Ubuntu机器的ip或主机名" + "\\" + "share"
