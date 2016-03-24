@@ -1,8 +1,8 @@
 == BaseDao.java
-```xml:/src/java/BaseDao.java```
+```java:/src/java/BaseDao.java```
 
 == BaseDaoImpl.java
-```xml:/src/java/BaseDaoImpl.java```
+```java:/src/java/BaseDaoImpl.java```
 
 == BaseService.java
-```xml:/src/java/BaseService.java```
+```java:/src/java/BaseService.java```
