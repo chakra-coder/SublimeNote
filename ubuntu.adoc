@@ -63,12 +63,12 @@ sudo apt-get install cifs-utils
 == 软件安装
 === 配置samba实现文件夹共享
 . samba的安装:
-```PowerShell
+```Bash shell scripts
 sudo apt-get insall samba
 sudo apt-get install cifs-utils
 ```
 . 创建共享目录:
-```bash
+```Bash shell scripts
 mkdir /home/vagrant/wiki
 sudo chmod 777 /home/vagrant/wiki
 ```
