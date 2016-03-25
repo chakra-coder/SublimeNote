@@ -168,7 +168,9 @@ curl -XPOST "http://192.168.1.126:9200/b2b" -d'
                "type": "string"
             },
             "shop_id": {
-               "type": "string"
+               "type": "string",
+               "index": "not_analyzed",
+               "store": true
             },
             "shop_recommended": {
                "type": "long"

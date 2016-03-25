@@ -68,7 +68,7 @@ sudo apt-get insall samba
 sudo apt-get install cifs-utils
 ```
 . 创建共享目录:
-```Bash shell scripts
+```shell
 mkdir /home/vagrant/wiki
 sudo chmod 777 /home/vagrant/wiki
 ```
