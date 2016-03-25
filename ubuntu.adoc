@@ -63,7 +63,7 @@ sudo apt-get install cifs-utils
 == 软件安装
 === 配置samba实现文件夹共享
 . samba的安装:
-```bash
+```PowerShell
 sudo apt-get insall samba
 sudo apt-get install cifs-utils
 ```
