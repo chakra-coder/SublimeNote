@@ -1,0 +1,17 @@
+= vagrant
+== alpine
+```ruby
+Vagrant.configure(2) do |config|
+  config.vm.synced_folder ".", "/vagrant", disabled: true
+  config.ssh.private_key_path = "C:/Users/dishui/.ssh/id_rsa"
+  config.ssh.forward_agent = true
+  config.vm.define "gollum" do |gollum|
+    gollum.vm.box = "gollum-1.0"
+    gollum.vm.hostname = "gollum"
+    gollum.vm.network "private_network", ip: "192.168.137.13",name: "VirtualBox Host-Only Ethernet Adapter"
+  end
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = "512"
+  end
+end
+```
