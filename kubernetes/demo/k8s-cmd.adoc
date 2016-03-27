@@ -2,11 +2,11 @@
 
 == 启动服务
 ```bash
-systemctl start etcd
-systemctl start docker
-systemctl start kube-apiserver
-systemctl start kube-controller-manager
-systemctl start kube-scheduler
-systemctl start kubelet
-systemctl start kube-proxy
+sudo systemctl start etcd
+sudo systemctl start docker
+sudo systemctl start kube-apiserver
+sudo systemctl start kube-controller-manager
+sudo systemctl start kube-scheduler
+sudo systemctl start kubelet
+sudo systemctl start kube-proxy
 ```
