@@ -1,0 +1,12 @@
+= CentOS
+
+== CentOS7
+
+* 安装 VBoxGuestAdditions 
+```bash
+yum install kernel-headers-$(uname -r) kernel-devel-$(uname -r) gcc make
+#
+sudo mount -o loop -t iso9660 VBoxGuestAdditions.iso /mnt
+#
+cd /mnt && sudo ./VBoxLinuxAdditions.run
+```
