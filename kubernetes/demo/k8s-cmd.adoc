@@ -1,7 +1,7 @@
 = k8s命令
 
 == 启动服务
-
+```bash
 * systemctl start etcd
 * systemctl start docker
 * systemctl start kube-apiserver
@@ -9,3 +9,4 @@
 * systemctl start kube-scheduler
 * systemctl start kubelet
 * systemctl start kube-proxy
+```
