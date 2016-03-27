@@ -7,6 +7,9 @@
 .markdown-body h6{
 	margin: 0;
 }
+.markdown-body code{
+	font-size: 14px;
+}
 #sidebar-content{
 	padding: 10px;
 }

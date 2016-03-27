@@ -67,8 +67,3 @@ end
     alice->bob: Test
     bob->alice: Test response
 }}}}}}
-
-
-
-
-测试试试a撒士大夫asdfasdf阿三地方asdf
