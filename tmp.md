@@ -146,7 +146,33 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z
 "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"
 
 
-
+ImmutableMap.builder()
+            .put("a", filterListByFlag(msi_l, "a"))
+            .put("b", filterListByFlag(msi_l, "b"))
+            .put("c", filterListByFlag(msi_l, "c"))
+            .put("d", filterListByFlag(msi_l, "d"))
+            .put("e", filterListByFlag(msi_l, "e"))
+            .put("f", filterListByFlag(msi_l, "f"))
+            .put("g", filterListByFlag(msi_l, "g"))
+            .put("h", filterListByFlag(msi_l, "h"))
+            .put("i", filterListByFlag(msi_l, "i"))
+            .put("j", filterListByFlag(msi_l, "j"))
+            .put("k", filterListByFlag(msi_l, "k"))
+            .put("l", filterListByFlag(msi_l, "l"))
+            .put("m", filterListByFlag(msi_l, "m"))
+            .put("n", filterListByFlag(msi_l, "n"))
+            .put("o", filterListByFlag(msi_l, "o"))
+            .put("p", filterListByFlag(msi_l, "p"))
+            .put("q", filterListByFlag(msi_l, "q"))
+            .put("r", filterListByFlag(msi_l, "r"))
+            .put("s", filterListByFlag(msi_l, "s"))
+            .put("t", filterListByFlag(msi_l, "t"))
+            .put("u", filterListByFlag(msi_l, "u"))
+            .put("v", filterListByFlag(msi_l, "v"))
+            .put("w", filterListByFlag(msi_l, "w"))
+            .put("x", filterListByFlag(msi_l, "x"))
+            .put("y", filterListByFlag(msi_l, "y"))
+            .put("z", filterListByFlag(msi_l, "z"))
 
 
 

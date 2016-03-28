@@ -8,10 +8,66 @@
 	"buffers":
 	[
 		{
-			"file": "note.sublime-project",
+			"file": "tmp.md",
 			"settings":
 			{
-				"buffer_size": 58,
+				"buffer_size": 3386,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ubuntu.adoc",
+			"settings":
+			{
+				"buffer_size": 3837,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "elasticsearch.md",
+			"settings":
+			{
+				"buffer_size": 31221,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "linux/vagrant.adoc",
+			"settings":
+			{
+				"buffer_size": 532,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_Sidebar.adoc",
+			"settings":
+			{
+				"buffer_size": 29,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "linux/alpine.adoc",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tmp.asciidoc",
+			"settings":
+			{
+				"buffer_size": 977,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "2016-03-05.md",
+			"settings":
+			{
+				"buffer_size": 332,
 				"line_ending": "Windows"
 			}
 		}
@@ -24,16 +80,12 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "stat",
+		"last_filter": "pus",
 		"selected_items":
 		[
 			[
-				"stat",
-				"Git: Status"
-			],
-			[
-				"git:stat",
-				"Git: Status"
+				"pus",
+				"Git: Push"
 			],
 			[
 				"com",
@@ -44,6 +96,30 @@
 				"Git: Add All"
 			],
 			[
+				"q",
+				"Git: Quick Commit"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"stau",
+				"Git: Status"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"git:stat",
+				"Git: Status"
+			],
+			[
 				"pul",
 				"Git: Pull"
 			],
@@ -52,24 +128,8 @@
 				"Git: Add Current File"
 			],
 			[
-				"pus",
-				"Git: Push"
-			],
-			[
-				"q",
-				"Git: Quick Commit"
-			],
-			[
 				"ins",
 				"Package Control: Install Package"
-			],
-			[
-				"pull",
-				"Git: Pull"
-			],
-			[
-				"push",
-				"Git: Push"
 			],
 			[
 				"pre",
@@ -181,10 +241,20 @@
 	},
 	"expanded_folders":
 	[
-		"/Z/SublimeNote"
+		"/Z",
+		"/Z/linux"
 	],
 	"file_history":
 	[
+		"/Z/custom.css",
+		"/Z/linux/vagrant.adoc",
+		"/Z/note.sublime-project",
+		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/User/Asciidoctor.sublime-settings",
+		"/Z/tmp.asciidoc",
+		"/Z/elasticsearch.md",
+		"/Z/mysql.adoc",
+		"/Z/ubuntu.adoc",
+		"/Z/src/java/tmp.java",
 		"//192.168.137.11/wiki/SublimeNote/tmp.md",
 		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/User/Git.sublime-settings",
 		"/D/ProtableSoft/Sublime Text Build 3103 x64/Data/Packages/Git/Git.sublime-settings",
@@ -244,7 +314,7 @@
 	],
 	"find":
 	{
-		"height": 32.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -259,6 +329,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"shouhuo_person",
+			"chuku_piz",
+			"shuohuo_company",
+			"chuku_piz",
+			"shuohuo_company",
+			"goods_num",
+			"`\\w+`",
 			"```java",
 			"include",
 			"find",
@@ -297,7 +374,7 @@
 			"Packages"
 		],
 		"highlight": true,
-		"in_selection": true,
+		"in_selection": false,
 		"preserve_case": false,
 		"regex": true,
 		"replace_history":
@@ -327,30 +404,233 @@
 			[
 				{
 					"buffer": 0,
-					"file": "note.sublime-project",
+					"file": "tmp.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 58,
+						"buffer_size": 3386,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								36,
-								36
+								3378,
+								3378
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"syntax": "Packages/MarkdownEditing/MultiMarkdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3531.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ubuntu.adoc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3837,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3006,
+								3006
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Asciidoctor/Syntaxes/Asciidoctor.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2232.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "elasticsearch.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4438,
+								4438
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/MultiMarkdown.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5382.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "linux/vagrant.adoc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								531,
+								531
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Asciidoctor/Syntaxes/Asciidoctor.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_Sidebar.adoc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Asciidoctor/Syntaxes/Asciidoctor.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "linux/alpine.adoc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Asciidoctor/Syntaxes/Asciidoctor.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "tmp.asciidoc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 977,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								977,
+								977
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Asciidoctor/Syntaxes/Asciidoctor.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "2016-03-05.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								198,
+								198
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/MultiMarkdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -430,10 +710,18 @@
 	},
 	"select_symbol":
 	{
-		"height": 175.0,
-		"last_filter": "goll",
+		"height": 310.0,
+		"last_filter": "el",
 		"selected_items":
 		[
+			[
+				"el",
+				"### `Elasticsearch`"
+			],
+			[
+				"ubu",
+				"= Ubuntu\n== 基础配置\n"
+			],
 			[
 				"goll",
 				"### gollum"
@@ -463,10 +751,6 @@
 				"### docker"
 			],
 			[
-				"ubu",
-				"### `Ubuntu`"
-			],
-			[
 				"va",
 				"### Vagrantfile"
 			],
@@ -491,10 +775,6 @@
 				"#### 破解地址(二选一)"
 			],
 			[
-				"el",
-				"### `Elasticsearch`"
-			],
-			[
 				"sq",
 				"### `Sql`"
 			],
@@ -511,7 +791,7 @@
 				"### `Sql`"
 			]
 		],
-		"width": 736.0
+		"width": 488.0
 	},
 	"selected_group": 0,
 	"settings":

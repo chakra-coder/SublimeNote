@@ -1,11 +1,5 @@
-{[a:"url",img:"url",name:"ming",shou:"m"],}
-
-[source,java]
-----
-include::{sourcedir}/org/asciidoctor/Asciidoctor.java[]
-----
-
-include::src/java/1.java[]
+{
+	a:{[a:"url",img:"url",name:"ming",shou:"m"],},
 
 
-[[include:src/java/2.java]]
+}

@@ -165,3 +165,114 @@ SELECT CASE mpa.attr_name WHEN '出库地区' THEN tranAddr (mpa.attr_value, '-'
     ]
   }
 }
+
+
+
+{"a":[{"a":"a","img":"/data/upload_image/shop/14/1/0908da3e442b4cc0a4c6324d59dbfa99.jpg","name":"北京市政路桥建材集团有限公司","shou":"a"}, {"a":"a","img":"/data/upload_image/shop/13/0/016a6e2b4da14457b1da90ed39ed27c7.jpg","name":"北京中物振华贸易有限公司","shou":"a"}, {"a":"a","img":"/data/upload_image/shop/4/2/24a65a2d36374494ba970bcd0a78924f.jpg","name":"北京通力正实","shou":"a"}]}
+
+
+jw.name("a");
+jw.value(filterListByFlag(msi_l, "a"));
+jw.name("b");
+jw.value(filterListByFlag(msi_l, "b"));
+jw.name("c");
+jw.value(filterListByFlag(msi_l, "c"));
+jw.name("d");
+jw.value(filterListByFlag(msi_l, "d"));
+jw.name("e");
+jw.value(filterListByFlag(msi_l, "e"));
+jw.name("f");
+jw.value(filterListByFlag(msi_l, "f"));
+jw.name("g");
+jw.value(filterListByFlag(msi_l, "g"));
+jw.name("h");
+jw.value(filterListByFlag(msi_l, "h"));
+jw.name("i");
+jw.value(filterListByFlag(msi_l, "i"));
+jw.name("j");
+jw.value(filterListByFlag(msi_l, "j"));
+jw.name("k");
+jw.value(filterListByFlag(msi_l, "k"));
+jw.name("l");
+jw.value(filterListByFlag(msi_l, "l"));
+jw.name("m");
+jw.value(filterListByFlag(msi_l, "m"));
+jw.name("n");
+jw.value(filterListByFlag(msi_l, "n"));
+jw.name("o");
+jw.value(filterListByFlag(msi_l, "o"));
+jw.name("p");
+jw.value(filterListByFlag(msi_l, "p"));
+jw.name("q");
+jw.value(filterListByFlag(msi_l, "q"));
+jw.name("r");
+jw.value(filterListByFlag(msi_l, "r"));
+jw.name("s");
+jw.value(filterListByFlag(msi_l, "s"));
+jw.name("t");
+jw.value(filterListByFlag(msi_l, "t"));
+jw.name("u");
+jw.value(filterListByFlag(msi_l, "u"));
+jw.name("v");
+jw.value(filterListByFlag(msi_l, "v"));
+jw.name("w");
+jw.value(filterListByFlag(msi_l, "w"));
+jw.name("x");
+jw.value(filterListByFlag(msi_l, "x"));
+jw.name("y");
+jw.value(filterListByFlag(msi_l, "y"));
+jw.name("z");
+jw.value(filterListByFlag(msi_l, "z"));
+
++"\"a\":"+filterListByFlag(msi_l, "a")+","
++"\"b\":"+filterListByFlag(msi_l, "b")+","
++"\"c\":"+filterListByFlag(msi_l, "c")+","
++"\"d\":"+filterListByFlag(msi_l, "d")+","
++"\"e\":"+filterListByFlag(msi_l, "e")+","
++"\"f\":"+filterListByFlag(msi_l, "f")+","
++"\"g\":"+filterListByFlag(msi_l, "g")+","
++"\"h\":"+filterListByFlag(msi_l, "h")+","
++"\"i\":"+filterListByFlag(msi_l, "i")+","
++"\"j\":"+filterListByFlag(msi_l, "j")+","
++"\"k\":"+filterListByFlag(msi_l, "k")+","
++"\"l\":"+filterListByFlag(msi_l, "l")+","
++"\"m\":"+filterListByFlag(msi_l, "m")+","
++"\"n\":"+filterListByFlag(msi_l, "n")+","
++"\"o\":"+filterListByFlag(msi_l, "o")+","
++"\"p\":"+filterListByFlag(msi_l, "p")+","
++"\"q\":"+filterListByFlag(msi_l, "q")+","
++"\"r\":"+filterListByFlag(msi_l, "r")+","
++"\"s\":"+filterListByFlag(msi_l, "s")+","
++"\"t\":"+filterListByFlag(msi_l, "t")+","
++"\"u\":"+filterListByFlag(msi_l, "u")+","
++"\"v\":"+filterListByFlag(msi_l, "v")+","
++"\"w\":"+filterListByFlag(msi_l, "w")+","
++"\"x\":"+filterListByFlag(msi_l, "x")+","
++"\"y\":"+filterListByFlag(msi_l, "y")+","
++"\"z\":"+filterListByFlag(msi_l, "z")+","
+
+
+
+
+{
+  "a": [
+    {
+      "a": "a",
+      "img": "/data/upload_image/shop/14/1/0908da3e442b4cc0a4c6324d59dbfa99.jpg",
+      "name": "北京市政路桥建材集团有限公司",
+      "shou": "a"
+    },
+    {
+      "a": "a",
+      "img": "/data/upload_image/shop/13/0/016a6e2b4da14457b1da90ed39ed27c7.jpg",
+      "name": "北京中物振华贸易有限公司",
+      "shou": "a"
+    },
+    {
+      "a": "a",
+      "img": "/data/upload_image/shop/4/2/24a65a2d36374494ba970bcd0a78924f.jpg",
+      "name": "北京通力正实",
+      "shou": "a"
+    }
+  ]
+}
