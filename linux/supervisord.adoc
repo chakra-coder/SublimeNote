@@ -1,0 +1,13 @@
+== supervisord
+
+* 配置文件 sudo vi /etc/supervisord.conf.d/gollum.conf
+```
+[program:gollum]
+command=gollum /home/vagrant/wiki --config /home/vagrant/wiki/config.rb --css /h
+user =root
+autostart=true
+stdout_logfile=/tmp/gollum.log
+stdout_logfile_maxbytes=1MB
+stderr_logfile=/tmp/gollum-error.log
+stderr_logfile_maxbytes=1MB
+```
