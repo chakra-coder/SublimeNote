@@ -24,59 +24,53 @@
 ** [[shell|shell]]
 ** [[软件安装|ruan_jian_an_zhuang]]
 ** [[分区|fen_qu]]
-   * HA
-       * [[heartbeat|heartbeat]]
-   * [[VirtualBox|virtualbox]]
-   * [[yum|yum]]
-   * [[Mysql|mysql]]
-       * [[mysql5.6|mysql56]]
-       * [[mysql1|mysql1]]
-       * [[Mysql Issues|mysqlcuo_wu]]
-   * Nginx
-       * [[nginx|nginx]]
-   * Ubuntu
-       * [[setup|ubuntu-setup]]
-   * Fedora
-       * [[fedora-setup|fedora-setup]]
-   * http
-       * [[httpd.conf|httpdconf]]
-   * SVN
-       * [[svn-setup|svn-setup]]
-   * Docker
-       * [[docker-issues|docker-issues]]
-       * [[docker-Dockerfile|docker-dockerfile]]
-       * [[docker-base|docker-base]]
-       * [[docker-snippets|docker-snippets]]
-       * [[docker-supervisord|docker-supervisord]]
-   * CentOS
-       * [[6.7-x64|67-x64]]
+* HA
+** [[heartbeat|heartbeat]]
+* [[VirtualBox|virtualbox]]
+* [[yum|yum]]
+* [[Mysql|mysql]]
+** [[mysql5.6|mysql56]]
+** [[mysql1|mysql1]]
+** [[Mysql Issues|mysqlcuo_wu]]
+* Nginx
+** [[nginx|nginx]]
+* Ubuntu
+** [[setup|ubuntu-setup]]
+* Fedora
+** [[fedora-setup|fedora-setup]]
+* http
+** [[httpd.conf|httpdconf]]
+* SVN
+** [[svn-setup|svn-setup]]
+* Docker
+** [[docker-issues|docker-issues]]
+** [[docker-Dockerfile|docker-dockerfile]]
+** [[docker-base|docker-base]]
+** [[docker-snippets|docker-snippets]]
+** [[docker-supervisord|docker-supervisord]]
+* CentOS
+** [[6.7-x64|67-x64]]
 * Work
-   * [[tip|tip]]
-   * Javascript
-       * [[JSUtils|jsutils]]
-       * [[base|base]]
-   * [[java|java]]
-   * [[tmp-sql|tmp-sql]]
-   * [[comm-fields|comm-fields]]
-   * [[maven|maven]]
-   * [[tmp-java-snippets|tmp-java-snippets]]
-   * [[svn|work-svn]]
-   * [[guava|guava]]
+** [[tip|tip]]
+** Javascript
+*** [[JSUtils|jsutils]]
+*** [[base|base]]
+** [[java|java]]
+*** [[tmp-sql|tmp-sql]]
+*** [[comm-fields|comm-fields]]
+** [[maven|maven]]
+*** [[tmp-java-snippets|tmp-java-snippets]]
+*** [[svn|work-svn]]
+*** [[guava|guava]]
 * ES
-   * [[ES-Java-API|javaapi]]
-   * [[json|json]]
-   * [[ES-jest-API|jest]]
-   * [[ES-book-note|es-book-note]]
-   * [[detail|detail]]
-   * [[es-snippet|es-snippet]]
-   * [[ES插件安装|escha_jian_an_zhuang]]
-   * [[elasticsearch-jdbc-importer|elasticsearch-jdbc-importer]]
-   * [[curl|curl]]
-   * [[ES-issues|es-issues]]
-* Spark
-   * [[spark-base|spark-base]]
-* July-Algorithm
-   * [[字符与字符串|zi_fu_yu_zi_fu_chuan]]
-* Test
-   * [[Asciidoc|test-asciidoc.adoc)]]
+** [[ES-Java-API|javaapi]]
+** [[json|json]]
+** [[ES-jest-API|jest]]
+** [[ES-book-note|es-book-note]]
+** [[detail|detail]]
+** [[es-snippet|es-snippet]]
+** [[ES插件安装|escha_jian_an_zhuang]]
+** [[elasticsearch-jdbc-importer|elasticsearch-jdbc-importer]]
+** [[curl|curl]]
+** [[ES-issues|es-issues]]
 
