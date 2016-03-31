@@ -1,29 +1,29 @@
 = Summary
 
 * [[Introduction|README]]
-   * [[Sublime|sublime]]
+** [[Sublime|sublime]]
 * [[Spring|springMVC]]
-   * springIOC
-       * [[IOC_xml|iocxml_md]]
-   * springMVC
-       * [[MVC_xml|mvcxml_md]]
+** springIOC
+*** [[IOC_xml|iocxml_md]]
+** springMVC
+*** [[MVC_xml|mvcxml_md]]
 * Linux
-   * [[NFS|NFS简介和配置]]
-       * [[NFS简介和配置-1|nfsjian_1]]
-   * LVS
-       * [[ipvs_nat_conf|ipvsnat_conf]]
-       * [[keepalived|keepalived]]
-   * Base
-       * [[基础设置|ji_chu_she_zhi]]
-       * [[grep|grep]]
-       * [[basic|basic]]
-       * [[bash|bash]]
-       * [[vim|vim]]
-       * [[ssh|ssh]]
-       * [[tip|linux-tip]]
-       * [[shell|shell]]
-       * [[软件安装|ruan_jian_an_zhuang]]
-       * [[分区|fen_qu]]
+** [[NFS|NFS简介和配置]]
+*** [[NFS简介和配置-1|nfsjian_1]]
+** LVS
+*** [[ipvs_nat_conf|ipvsnat_conf]]
+*** [[keepalived|keepalived]]
+* Base
+** [[基础设置|ji_chu_she_zhi]]
+** [[grep|grep]]
+** [[basic|basic]]
+** [[bash|bash]]
+** [[vim|vim]]
+** [[ssh|ssh]]
+** [[tip|linux-tip]]
+** [[shell|shell]]
+** [[软件安装|ruan_jian_an_zhuang]]
+** [[分区|fen_qu]]
    * HA
        * [[heartbeat|heartbeat]]
    * [[VirtualBox|virtualbox]]
