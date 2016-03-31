@@ -1,7 +1,7 @@
 == supervisord
 
 * 配置文件 sudo vi /etc/supervisord.conf.d/gollum.conf
-```conf
+```powershell
 [program:gollum]
 command=gollum /home/vagrant/wiki --config /home/vagrant/wiki/config.rb --css /h
 user =root
