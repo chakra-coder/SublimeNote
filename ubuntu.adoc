@@ -106,7 +106,7 @@ sudo vi /etc/samba/smb.conf
 . 创建samba帐户
 ```bash
   sudo touch /etc/samba/smbpasswd
-  sudo smbpasswd -a phinecos
+  sudo smbpasswd -a vagrant
 ```
 然后会要求你输入samba帐户的密码
 

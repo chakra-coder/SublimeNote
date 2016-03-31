@@ -1,0 +1,13 @@
+== gollum 安装
+
+* 步骤
+```bash
+sudo apk --update add ruby ruby-nokogiri ruby-rdoc build-base ruby-dev
+ icu-dev zlib-dev
+
+gem sources --add https://ruby.taobao.org/ --remove https://rubygems.org/
+
+sudo gem install gollum github-markdown asciidoctor --no-ri --no-rdoc
+
+
+```
