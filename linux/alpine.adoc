@@ -1,13 +1,18 @@
 == gollum 安装
 
-* 步骤
+* 安装ruby
 ```bash
 sudo apk --update add ruby ruby-nokogiri ruby-rdoc build-base ruby-dev
- icu-dev zlib-dev
-
-gem sources --add https://ruby.taobao.org/ --remove https://rubygems.org/
-
+ icu-dev zlib-dev git
+```
+* 安装gollum
+```bash
+sudo gem sources --add https://ruby.taobao.org/ --remove https://rubygems.org/
 sudo gem install gollum github-markdown asciidoctor --no-ri --no-rdoc
-
-
+```
+* 局域网访问慢
+```bash
+sudo vi /usr/lib/ruby/2.2.0/webrick/config.rb
+#第 36 行：:DoNotReverseLookup => nil,
+:DoNotReverseLookup => true
 ```
