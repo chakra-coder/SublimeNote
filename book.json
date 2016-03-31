@@ -1,0 +1,13 @@
+{
+    "plugins": [
+        "prism",
+        "-highlight",
+        "atoc"
+    ],
+    "pluginsConfig": {
+        "atoc": {
+            "addClass": true,
+            "className": "atoc"
+        }
+    }
+}
